@@ -3,6 +3,8 @@
 /**
  * _echo - mimics echo
  * @command: pointer to string to be printed
+ * 
+ * This is a team project
  */
 void _echo(char **command)
 {
