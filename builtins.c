@@ -14,7 +14,7 @@ void handle_builtin(char **command, char *buf, char **env,
  * @command: pointer to command to check for
  * Return: 0 if builtin | -1 otherwise
  */
-int check_builtin(char **com)
+int check_builtin(char **command)
 {
 	char *builtins[] = {"exit", "env", "printenv", "setenv", "cd",
 		"unsetenv", "echo", NULL};
